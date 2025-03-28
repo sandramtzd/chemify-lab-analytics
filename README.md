@@ -1,3 +1,4 @@
+
 # Chemify Lab Analytics
 
 _A data-driven solution for optimising lab efficiency_
@@ -13,25 +14,26 @@ This project aligns with that vision by:
 ✅ Analysing experiment success rates, chemical usage, and costs
 ✅ Creating an AI-powered dashboard for lab analytics
 
-## 📂 Datasets
+## 📂 Datasets  
 
-This project uses synthetic lab experiment logs that simulate real-world challenges:
-1️⃣ Lab Notebook Data: Manually recorded experiments (missing values, inconsistencies).
-2️⃣ IoT Sensor Logs: Automated experiment data (unit mismatches, errors).
-3️⃣ Procurement Reports: Chemical order history (cost analysis).
+This project uses synthetic lab experiment logs that simulate real-world challenges:  
 
-## ⚙️ Technologies Used
+1️⃣ Lab Notebook Data: Manually recorded experiments (missing values, inconsistencies). 
+2️⃣ IoT Sensor Logs: Automated experiment data (unit mismatches, errors).  
+3️⃣ Procurement Reports: Chemical order history (cost analysis).  
+
+## ⚙️ Technologies Used  
+
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - SQL (for structured data management)
 - Flask/Dash (to build an interactive WebApp)
 - Machine Learning (for predictive analysis)
 
+## 🏆 Key Features  
 
-## 🏆 Key Features
-
-🚀 Automated Data Cleaning & Synchronization
-📊 Real-time Lab Performance Dashboard
-💰 Cost & Resource Optimization Analysis
+🚀 Automated Data Cleaning & Synchronization  
+📊 Real-time Lab Performance Dashboard  
+💰 Cost & Resource Optimization Analysis  
 
 ## 📖 Project Structure
 

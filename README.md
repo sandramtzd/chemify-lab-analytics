@@ -10,6 +10,7 @@ Chemify is creating a digital chemical future where the access to important mole
 By developing the world's most efficient, automated and versatile chemical manufacturing laboratory, Chemify will radically increase the speed of innovation and contribute to the quality of life for the benefit of humanity
 
 This project aligns with that vision by:  
+
 ✅ Cleaning and synchronising lab experiment data from multiple sources  
 ✅ Analysing experiment success rates, chemical usage, and costs  
 ✅ Creating an AI-powered dashboard for lab analytics  
@@ -67,15 +68,21 @@ To run this project locally, follow these steps:
 
 3. Install dependencies
 
-    ```pip install -r requirements.txt```
+```
+   pip install -r requirements.txt
+```
 
-4. Run Jupyter notebook for analysis
+5. Run Jupyter notebook for analysis
 
-    ```jupyter notebook```
+```
+     jupyter notebook
+```
 
-5. Launch the WebApp
+6. Launch the WebApp
 
-    ```python app/app.py```
+```
+   python app/app.py
+```
 
 
 ## 👩‍💻 How to Use the Project
@@ -86,7 +93,8 @@ To run this project locally, follow these steps:
 
 ## 💡 Lessons Learned
 
-This project helped me develop expertise in:
+This project helped me develop expertise in:  
+
 ✅ Data Cleaning & Synchronization – Handling inconsistent multi-source data  
 ✅ Database Management – Structuring lab data for analysis  
 ✅ Building Analytical Dashboards – Using Flask/Dash for real-time insights  

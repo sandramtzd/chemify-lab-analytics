@@ -52,40 +52,46 @@ To run this project locally, follow these steps:
 
 1. Clone the repository
 
+```
      git clone https://github.com/YOUR_USERNAME/chemify-lab-analytics.git
-   cd chemify-lab-analytics
+     cd chemify-lab-analytics
+```
 
 2. Create a Virtual Environment
 
+```
     python -m venv env  
     source env/bin/activate   # On macOS/Linux
-    env\Scripts\activate      # On Windows
-
+    env\Scripts\activate      # On Windows```
+```
 
 3. Install dependencies
 
-    pip install -r requirements.txt
+    ```pip install -r requirements.txt```
 
 4. Run Jupyter notebook for analysis
 
-    jupyter notebook
+    ```jupyter notebook```
 
 5. Launch the WebApp
 
-    python app/app.py
+    ```python app/app.py```
 
 
 ## 👩‍💻 How to Use the Project
 
-🔹 Data Cleaning & Synchronization: Run the scripts/data_cleaning.py file to preprocess lab data
-🔹 Data Analysis & Visualization: Use Jupyter notebooks in notebooks/ for exploratory analysis
-🔹 WebApp for Real-time Insights: Run app.py to access the lab analytics dashboard
+🔹 Data Cleaning & Synchronization: Run the scripts/data_cleaning.py file to preprocess lab data  
+🔹 Data Analysis & Visualization: Use Jupyter notebooks in notebooks/ for exploratory analysis  
+🔹 WebApp for Real-time Insights: Run app.py to access the lab analytics dashboard  
 
+## 💡 Lessons Learned
 
+This project helped me develop expertise in:
+✅ Data Cleaning & Synchronization – Handling inconsistent multi-source data  
+✅ Database Management – Structuring lab data for analysis  
+✅ Building Analytical Dashboards – Using Flask/Dash for real-time insights  
+✅ Optimizing Lab Costs – Identifying efficiency opportunities with analytics  
 
+## 👥 Contributors
 
-
-
-
-3. 
-
+🔹 [Sandra](https://github.com/sandramtzd) – Developer & Data Analyst

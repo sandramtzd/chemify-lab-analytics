@@ -17,11 +17,41 @@ This project aligns with that vision by:
 
 ## 📂 Datasets  
 
-This project uses synthetic lab experiment logs that simulate real-world challenges:  
+To simulate realistic and large datasets, I created synthetic data with intentional **data inconsistencies** to reflect common challenges in data preprocessing, such as:
 
-🧪 Lab Notebook Data: Manually recorded experiments (missing values, inconsistencies).  
-📡 IoT Sensor Logs: Automated experiment data (unit mismatches, errors).  
-📋 Procurement Reports: Chemical order history (cost analysis).  
+- 🧪**Lab Notebook Data**: 
+  - Mixed date formats and inconsistent units.
+  - Missing catalyst and success status values.
+  - Outliers in success rates (e.g., negative values).
+
+- 📡**IoT Sensor Logs**: 
+  - Mixed time intervals and unit mismatches (e.g., kg vs grams).
+  - Missing sensor data for specific timestamps.
+  - Duplicate sensor readings.
+
+- 📋**Procurement & Cost Reports**: 
+  - Duplicate chemical orders.
+  - Inconsistent cost values (e.g., "unknown" values).
+  - Units switched between kilograms and grams.
+ 
+### Datasets generated
+#### 1. Lab Notebook Data
+- Size: 50,000 rows
+- Fields: Experiment ID, Chemical Used, Quantity (grams), Temperature, Pressure, Reaction Time, Success Status
+- Key Inconsistencies: Inconsistent date formats, missing values, outliers in success rates.
+
+#### 2. IoT Sensor Logs
+- Size: 100,000 rows
+- Fields: Timestamp, Sensor ID, Experiment ID, Reading Value, Unit
+- Key Inconsistencies: Mixed time intervals, unit mismatches, missing sensor readings.
+
+#### 3. Procurement & Cost Reports
+- Size: 20,000 rows
+- Fields: Order ID, Chemical Ordered, Supplier, Quantity Ordered, Cost, Order Date
+- Key Inconsistencies: Duplicate chemical orders, inconsistent cost values.
+
+### Purpose of Introducing Inconsistencies
+These inconsistencies were added deliberately to simulate real-world scenarios where data cleaning and preprocessing are required. The goal is to demonstrate my ability to handle **messy data**, perform **data wrangling**, and **prepare datasets for analysis**.
 
 ## ⚙️ Technologies Used  
 
